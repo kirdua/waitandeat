@@ -18,7 +18,6 @@ body {
 }
 
 /* Auth styles */
-
 .form-signin {
     max-width: 330px;
     padding: 15px;
@@ -55,4 +54,8 @@ body {
 
 .form-signin input[type="submit"] {
     margin-top: 10px;
+}
+
+.error {
+    color: crimson;
 }
