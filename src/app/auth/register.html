@@ -1,8 +1,8 @@
 <form name="authForm" ng-submit="vm.register(vm.user)" class="form-signin" novalidate>
     <h2 class="form-signin-heading">Sign up</h2>
-    <p ng-show="!error" class="error" ng-bind="vm.message"></p>
     
     <!-- email error -->
+    <p ng-show="!error" class="error" ng-bind="vm.message"></p>
     <div ng-show="authForm.$submitted">
         <p ng-show="authForm.email.$error.required" class="text-danger">Email required</p>
         <p ng-show="authForm.email.$error.email" class="text-danger">Please enter a valid email.</p>
